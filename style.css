@@ -12,8 +12,8 @@ li {
   .cx1 {
       flex-direction: column;
       display: flex;
-      background-color: lightblue;
-      border: 1px solid blue;
+      background-color: rgba(255, 255, 255, 0.5);
+
       margin: 50px;
       padding: 50px;
   }
@@ -21,31 +21,28 @@ li {
   .cx11 {
       display: flex;
       flex-direction: column;
-      background-color: lightgreen;
-      border: 1px solid green;
+      background-color: lightblue;
       padding: 10px;
   }
   
   .cx111 {
       display: flex;
-      background-color: lightyellow;
-      border: 1px solid yellow;
+      background-color: lightblue;
       padding: 10px;
       justify-content: space-evenly;
   }
   
   .cx112 {
       display: flex;
-      background-color: rgb(220, 179, 104);
-      border: 1px solid orange;
+      background-color: rgb(210, 239, 248);
       padding: 10px;
       justify-content: space-evenly;
   }
   
   .cx12 {
       display: flex;
-      background-color: rgb(213, 116, 116);
-      border: 1px solid red;
+      background-color: rgba(255, 255, 255, 0.8);
+      
       padding: 10px;
       min-height:50ch;
   }
@@ -143,4 +140,31 @@ li {
     background-image:  radial-gradient(#4588f7 1.1px, transparent 1.1px), radial-gradient(#4588f7 1.1px, #f3f3f3 1.1px);
     background-size: 44px 44px;
     background-position: 0 0,22px 22px;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    
+}
+
+input {
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+}
+
+input:focus {
+    background-color: #ffffff;
+    outline: none; /* Removes the default focus outline */
+    border: none; 
 }
