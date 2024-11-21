@@ -47,6 +47,7 @@ li {
       background-color: rgb(213, 116, 116);
       border: 1px solid red;
       padding: 10px;
+      min-height:50ch;
   }
   
   label {
@@ -135,3 +136,11 @@ li {
   button:-webkit-details-marker {
     display: none;
   }
+
+  body {
+    background-color: #f3f3f3;
+    opacity: 1;
+    background-image:  radial-gradient(#4588f7 1.1px, transparent 1.1px), radial-gradient(#4588f7 1.1px, #f3f3f3 1.1px);
+    background-size: 44px 44px;
+    background-position: 0 0,22px 22px;
+}
