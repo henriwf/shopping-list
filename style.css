@@ -13,7 +13,6 @@ li {
       flex-direction: column;
       display: flex;
       background-color: rgba(255, 255, 255, 0.5);
-
       margin: 50px;
       padding: 50px;
   }
@@ -34,15 +33,15 @@ li {
   
   .cx112 {
       display: flex;
+      align-items: center;
       background-color: rgb(210, 239, 248);
       padding: 10px;
-      justify-content: space-evenly;
+      gap: 10px; 
   }
   
   .cx12 {
       display: flex;
       background-color: rgba(255, 255, 255, 0.8);
-      
       padding: 10px;
       min-height:50ch;
   }
@@ -57,6 +56,9 @@ li {
   .additem {
     display: flex;
     margin: 5px;  
+    line-height: 30px;
+    padding: 6px 16px;
+    margin: 0;
   }
   
   ul {
@@ -73,8 +75,12 @@ li {
   
   
   #item {
-    display: flex;
-    flex-grow: 2;
+    flex-grow: 1; 
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 30px; 
+    padding: 6px 16px;
+    margin: 0;
   }
   
   button {
@@ -90,7 +96,7 @@ li {
     font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     font-size: 14px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 30px;
     list-style: none;
     padding: 6px 16px;
     position: relative;
@@ -156,7 +162,7 @@ input {
     font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     font-size: 14px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 30px;
     list-style: none;
     padding: 6px 16px;
     position: relative;
@@ -165,6 +171,6 @@ input {
 
 input:focus {
     background-color: #ffffff;
-    outline: none; /* Removes the default focus outline */
+    outline: none; 
     border: none; 
 }
